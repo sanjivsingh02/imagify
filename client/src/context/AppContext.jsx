@@ -12,7 +12,11 @@ const AppContextProvider = (props)=>{
   
   const [credit,setCredit] = useState(false)
 
+<<<<<<< HEAD
   const backendUrl = 'http://localhost:9090'
+=======
+  const backendUrl = https://imagify-backend-txvy.onrender.com
+>>>>>>> ba42f7a021e3564c8e1e41513c9be021f91c5844
   const navigate = useNavigate()
 
   const loadCreditsData = async () => {
